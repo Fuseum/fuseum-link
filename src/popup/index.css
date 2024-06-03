@@ -1,0 +1,87 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@font-face {
+  font-family: 'TWKEverett';
+  font-weight: 400;
+  font-style: normal;
+  src: url('/fonts/TWKEverett-Regular.otf');
+}
+@font-face {
+  font-family: 'TWKEverett';
+  font-weight: 500;
+  font-style: normal;
+  src: url('/fonts/TWKEverett-Medium.otf');
+}
+@font-face {
+  font-family: 'TWKEverett';
+  font-weight: 700;
+  font-style: normal;
+  src: url('/fonts/TWKEverett-Bold.otf');
+}
+@font-face {
+  font-family: 'TWKEverett';
+  font-weight: 800;
+  font-style: normal;
+  src: url('/fonts/TWKEverett-Extrabold.otf');
+}
+@font-face {
+  font-family: 'IBM Plex Mono';
+  font-weight: 400;
+  font-style: normal;
+  src: url('/fonts/IBMPlexMono-Regular.ttf');
+}
+@font-face {
+  font-family: 'IBM Plex Mono';
+  font-weight: 500;
+  font-style: normal;
+  src: url('/fonts/IBMPlexMono-Medium.ttf');
+}
+@font-face {
+  font-family: 'IBM Plex Mono';
+  font-weight: 700;
+  font-style: normal;
+  src: url('/fonts/IBMPlexMono-Bold.ttf');
+}
+@font-face {
+  font-family: 'MonaSans';
+  font-weight: 400;
+  font-style: normal;
+  src: url('/fonts/MonaSans/MonaSans-Regular.woff2');
+}
+@font-face {
+  font-family: 'MonaSans';
+  font-weight: 500;
+  font-style: normal;
+  src: url('/fonts/MonaSans/MonaSans-Medium.woff2');
+}
+@font-face {
+  font-family: 'MonaSans';
+  font-weight: 600;
+  font-style: normal;
+  src: url('/fonts/MonaSans/MonaSans-SemiBold.woff2');
+}
+@font-face {
+  font-family: 'MonaSans';
+  font-weight: 700;
+  font-style: normal;
+  src: url('/fonts/MonaSans/MonaSans-Bold.woff2');
+}
+:root {
+  background-color: #060b1b;
+}
+.html {
+  width: 320px;
+  max-height: 600px;
+  height: 100%;
+}
+body {
+  font-family: 'TWKEverett', sans-serif;
+
+  height: 100%;
+  overflow-y: hidden;
+  /* max-height: 600px; */
+  margin: 0;
+  padding-top: 16px;
+  padding-right: 12px;
+}
